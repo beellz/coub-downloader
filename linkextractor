@@ -1,0 +1,5 @@
+##### Code for URL Extraction
+urls = $$('a'); for (url in urls) console.log ( urls[url].href );
+y
+grep code to find the url to make it
+grep --only-matching 'https://coub.com/view/.*' ./fileaddress.txt | sort --unique >> puttingaddress.txt
