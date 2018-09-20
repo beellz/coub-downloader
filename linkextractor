@@ -1,5 +1,19 @@
+#### step 1
+#### put this in the console and extract the urls to a file .
+#### copy to a file.
+#### then step 2.
+#### grep the content and save to a new file . 
+#### check the file for errors
+
+
+##### step 1
 ##### Code for URL Extraction
 urls = $$('a'); for (url in urls) console.log ( urls[url].href );
-y
-grep code to find the url to make it
-grep --only-matching 'https://coub.com/view/.*' ./fileaddress.txt | sort --unique >> puttingaddress.txt
+
+
+
+
+#### step 2
+#### grep code to find the url to make it
+grep --only-matching 'https://coub.com/view/.*' ./fileaddress.txt | sort --unique >> file.txt
+
